@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Incriptador</title>
+</head>
+<body>
+    
+    <header class="header__arriba">
+        <main class="primer__paso__arriba">El incriptador de texto está aquí </main>
+    </header>
+
+    <section class="incriptador__contenido">
+      <h1 class="incriptador__contenido__basico">Comienza tus secretos aqui</h1>
+      <p class="incriptador__contenido__titulo">Intentalo!!</p>
+    </section>
+
+    <div class="container__texto_code">
+        <textarea class="texto" id="boxTextoEntrada" rows="10" cols="70" placeholder="Ingresa aqui tu texto a encriptar"></textarea>
+        <textarea class="texto" id="boxTextoSalida" rows="10" cols="70" placeholder="Ingresa aqui tu texto a encriptar"></textarea>
+    </div>
+        <div class="container__los__botones">
+            <button class="boton" onclick="codeEntradaIntento();">Cifrar</button>
+            <button class="boton" onclick="codeSalidaResultado();">Decifrar</button>
+            
+        </div> 
+    <section>
+        <button class="porta__papeles" onclick="copiarncriptado()">Copiar</button>
+    </section>
+    <script src="app.js"></script>
+
+</body>
+<footer>
+    <a>ALURA LATAM challeng by suleyma Hernandez</a></p>
+  </footer>
+</html>
